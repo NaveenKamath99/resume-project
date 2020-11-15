@@ -1,0 +1,43 @@
+/* rem depends on html font size and em depends on parent font size */
+.a{ 
+    width:50%;
+    height:80%;
+    border: 2px solid black;
+    background-color: teal;
+    padding: 20px 50px;  
+    box-shadow: 10px 5px 10px 3px grey;
+
+}
+#s{
+    margin: 30px auto;
+    
+}
+img{
+    border-radius:50%;
+    margin-top: 40px;
+    margin-left: 50px;
+    margin-right: 10px;
+    margin-bottom: 40px;
+    text-align: left;
+}
+
+.e{
+    font-size: 20px;
+    text-decoration:underline;
+    text-transform: uppercase;
+    color:yellowgreen;
+    
+}
+.fontchange{
+    font-family: 'Lobster', cursive;
+}
+table{
+    cursor:wait;
+    box-shadow: 10px 5px 15px goldenrod;
+}
+table:hover{
+    opacity:0.6;
+}
+.linear{
+    background-image: linear-gradient(to right,rgba(165, 42, 42, 0.74),rgb(94, 255, 0), rgb(187, 176, 28));
+}

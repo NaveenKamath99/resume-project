@@ -1,0 +1,49 @@
+
+/*    comment in css     */
+
+p{
+    color:red;
+}
+#p3{
+    color:rgb(37, 4, 24);
+    text-shadow: 3px -10px 6px red;                                                   /* horizontal vertical shadow colour  */
+}
+.f{
+    font-size: 50px;
+    text-decoration:underline;
+    text-transform: uppercase;
+} 
+#i{
+    background-color: rgb(166, 245, 245);
+    background-image :url('mobile-phone-and-tablet-pc-connected-to-laptop-vector-21451819.jpg');
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: 40%; 
+    border-style: solid dashed none dotted;
+    border-width: 5px 4px;
+    border-color: red yellowgreen;
+    border-radius:30px 10px;
+    padding: 20px 10px;                                                    /* makes spaces between borders of an element  */
+}
+#margin{                                                                   /* makes spaces between borders of 2 elements;;; can be done 
+----------------------------------------------------------------------------as done in case of padding top right bottom left  */
+     width: 80%;
+    /*margin-top: 40px;
+    margin-left: 50px;
+    margin-right: 10px;
+    margin-bottom: 40px; */
+    margin: 30px auto;
+    color:yellow;
+    border: 2px solid black;
+    text-align: center;
+    line-height: 30px;
+    text-indent: 50px;                                                   /* space at start of sentence  */
+}
+.overflow{
+    height:300px;
+    width:400px;
+    background-color: goldenrod;
+    border: 2px solid red;
+     overflow:auto;                                /*for scrollbar it can be overflox-x/y:visible */
+    resize:both;                                   /*for resize of box it can also be hor/vertical */
+}
